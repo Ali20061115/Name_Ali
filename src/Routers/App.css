@@ -1,0 +1,27 @@
+h1{
+    color:red;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+h1 hover{
+    color: yellow;
+
+}
+
+#box{
+text-decoration: none;
+color: chocolate;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+#card{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
